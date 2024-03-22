@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: burlywood;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url("sylback.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 13px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: grey;
+    align-items: center;
+    height: 70px;
+}
+
+.navitem {
+    color: white;
+    text-decoration: none;
+    height: 22px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    
+}
+
+.navname {
+    text-align: left;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    color: black;
+}
+
+.timage {
+    display: flex;
+    justify-content: center;
+    border: 2px;
+}
+
+.subhead {
+    display: flex;
+    justify-content: center;
+    background-size: inherit;
+    background-color: grey;
+}
+
+.aboutus {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+}
+
+.new {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aqua;
+    color: black;
+    content: "|";
+}
+
+.newitems {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 13px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.drinks {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.best {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aqua;
+    color: black;
+}
+
+.lassi {
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: row;
+
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border: solid 2px black; 
+    background-color: white;
+
+}
+
+.drimg {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+
+.blimg {
+    justify-content: center;
+}
+
+.prices {
+    text-align: center;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.divider {
+    display: flex;
+    flex-direction: column; 
+    border: solid 2px black; 
+}
